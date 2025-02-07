@@ -12,7 +12,7 @@ public class Driver1 {
         String perintah;  
         String accountName;
         String owner; 
-
+ 
         perintah = input.nextLine();
         accountName = input.nextLine();
         owner = input.nextLine();
