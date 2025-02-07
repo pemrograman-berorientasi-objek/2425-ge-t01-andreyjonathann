@@ -25,7 +25,7 @@ public class Transaction {
         this.note = note;
         
         this.id = ++idCounter;      // Auto increment ID
-        this.balance = amount;      // Inisialisasi balance pertama sesuai amount
+        this.balance = balance + amount;      // Inisialisasi balance pertama sesuai amount
     }
 
     // Method untuk menampilkan informasi akun
