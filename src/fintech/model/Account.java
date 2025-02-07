@@ -12,11 +12,9 @@
      private String accountName;
      private String owner;
      private double balance = 0.0;
- 
      public Account(String accountName, String owner) {
          this.accountName = accountName;
          this.owner = owner;
- 
      }
  
      public String toString() {

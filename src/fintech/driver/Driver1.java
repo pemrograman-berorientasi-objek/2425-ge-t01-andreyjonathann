@@ -11,7 +11,7 @@ public class Driver1 {
         Scanner input = new Scanner(System.in);
         String perintah;
         String accountName;
-        String owner;
+        String owner; 
 
         perintah = input.nextLine();
         accountName = input.nextLine();
