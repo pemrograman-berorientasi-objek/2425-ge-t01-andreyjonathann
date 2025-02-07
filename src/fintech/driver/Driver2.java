@@ -25,32 +25,16 @@ public class Driver2 {
         Account accounts = new Account(accountName, owner);
         
         
-        owner = input.nextLine();
-        
         accountName = input.nextLine();
         
-
-        String perintah2 = input.nextLine();
-        
-
-        String testAccountName = input.nextLine();
-
-        double amount = 0.0;
-        String posted_at = "";
-        String note = "";
-
-        
-        if (accountName.equals(testAccountName)) {
-            amount = input.nextDouble(); 
-            input.nextLine();           
-            posted_at = input.nextLine(); 
-            note = input.nextLine();      
-        }
+        owner = input.nextLine();
+        double amount = input.nextDouble();
+        String posted_at = input.nextLine();
+        String note = input.nextLine();
 
         
         Transaction transaction = new Transaction(accountName, owner, amount, posted_at, note);
 
-        // Tampilkan informasi akun dan transaksi
         System.out.println(accounts.toString());
         System.out.println(transaction.toString2());
 

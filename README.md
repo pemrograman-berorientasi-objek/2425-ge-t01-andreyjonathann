@@ -87,7 +87,7 @@ Sebagai contoh, perhatikan interaksi berikut.
 
 ```bash
 create-account
-Wiro Sableng
+Wiro Sablengcls
 wirsab
 create-transaction
 wirsab
