@@ -24,8 +24,8 @@ public class Driver2 {
 
         Account accounts = new Account(accountName, owner);
         
-        accountName = input.nextLine();
         String perintah2 =input.nextLine();
+        accountName = input.nextLine();
         
         owner = input.nextLine();
         double amount = input.nextDouble();

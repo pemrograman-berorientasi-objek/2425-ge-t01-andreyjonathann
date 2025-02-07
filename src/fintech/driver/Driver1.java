@@ -16,7 +16,7 @@ public class Driver1 {
         perintah = input.nextLine();
         accountName = input.nextLine();
         owner = input.nextLine();
-
+ 
         Account accounts = new Account(accountName, owner);
         System.out.println(accounts.toString());
 
