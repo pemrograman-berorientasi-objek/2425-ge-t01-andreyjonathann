@@ -1,5 +1,6 @@
 package fintech.driver;
 
+import fintech.model.Account;
 import fintech.model.Transaction;
 import java.util.Scanner;
 
@@ -10,13 +11,23 @@ import java.util.Scanner;
 public class Driver2 { 
  
     public static void main(String[] _args) {
+        
+
         Scanner input = new Scanner(System.in);
+        String perintah; 
+        String accountName;
+        String owner; 
+
+        perintah = input.nextLine();
+        accountName = input.nextLine();
+        owner = input.nextLine();
+
+        Account accounts = new Account(accountName, owner);
         
-        String perintah = input.nextLine();
         
-        String owner = input.nextLine();
+        owner = input.nextLine();
         
-        String accountName = input.nextLine();
+        accountName = input.nextLine();
         
 
         String perintah2 = input.nextLine();
@@ -40,7 +51,7 @@ public class Driver2 {
         Transaction transaction = new Transaction(accountName, owner, amount, posted_at, note);
 
         // Tampilkan informasi akun dan transaksi
-        System.out.println(transaction.toString());
+        System.out.println(accounts.toString());
         System.out.println(transaction.toString2());
 
         input.close();
