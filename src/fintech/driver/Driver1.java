@@ -9,7 +9,7 @@ public class Driver1 {
 
     public static void main(String[] _args) {
         Scanner input = new Scanner(System.in);
-        String perintah;
+        String perintah; 
         String accountName;
         String owner; 
 

@@ -82,7 +82,7 @@ create-transaction
 <note>
 
 ```
-
+ 
 Sebagai contoh, perhatikan interaksi berikut.
 
 ```bash
