@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author 12S23050_Yolanda Saragih
  */
 public class Driver1 {
- 
+  
     public static void main(String[] _args) {
         Scanner input = new Scanner(System.in);
         String perintah;  

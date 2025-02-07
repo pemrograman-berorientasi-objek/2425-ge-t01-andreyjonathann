@@ -81,13 +81,13 @@ create-transaction
 <posted-at>
 <note>
 
-```
+``` 
  
 Sebagai contoh, perhatikan interaksi berikut.
 
 ```bash
 create-account
-Wiro Sablengcls
+Wiro Sableng
 wirsab
 create-transaction
 wirsab

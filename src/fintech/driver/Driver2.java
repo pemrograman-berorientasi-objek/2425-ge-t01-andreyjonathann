@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * @author 12S23017_Andrey Jonathan
  * @author 12S23050_Yolanda Saragih
- */
+ */ 
 public class Driver2 { 
   
     public static void main(String[] _args) {
