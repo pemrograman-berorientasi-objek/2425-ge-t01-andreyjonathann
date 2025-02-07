@@ -12,29 +12,31 @@ public class Driver2 {
   
     public static void main(String[] _args) {
         
-
         Scanner input = new Scanner(System.in);
-        String perintah; 
-        String accountName;
-        String owner; 
 
-        perintah = input.nextLine();
-        accountName = input.nextLine();
-        owner = input.nextLine();
+        // Membaca perintah pertama
+        String perintah = input.nextLine(); 
+        String accountName = input.nextLine();
+        String owner = input.nextLine();
 
+        // Membuat akun
         Account accounts = new Account(accountName, owner);
         
-        String perintah2 =input.nextLine();
+        // Membaca perintah transaksi
+        String perintah2 = input.nextLine();
         accountName = input.nextLine();
         
-        owner = input.nextLine();
+        // Membaca jumlah transaksi dengan benar
         double amount = input.nextDouble();
+        input.nextLine(); // Konsumsi newline setelah nextDouble()
+
         String posted_at = input.nextLine();
         String note = input.nextLine();
 
-        
+        // Membuat transaksi
         Transaction transaction = new Transaction(accountName, owner, amount, posted_at, note);
 
+        // Output hasil
         System.out.println(accounts.toString());
         System.out.println(transaction.toString2());
 
